@@ -55,7 +55,7 @@ if __name__ == '__main__':
         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]),
     ])
     
-    df = pd.read_csv('../data/AllinAll.csv')
+    df = pd.read_csv('data/AllinAll.csv')
     # print(df.head())
 
     # Access the first row of the "Input.image_url1" column
